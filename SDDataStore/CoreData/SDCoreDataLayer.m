@@ -10,8 +10,30 @@
 
 @implementation SDCoreDataLayer
 
++(instancetype) singleton
+{
+    static SDCoreDataLayer *_cdLayer = nil;
+    static dispatch_once_t _oncePredicate;
+    dispatch_once(&_oncePredicate,
+        ^{
+            _cdLayer = [[SDCoreDataLayer alloc] init];
+        });
+    return _cdLayer;
+}
 
+-(void) dealloc
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
 
+-(instancetype) init
+{
+    if (self = [super init])
+    {
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(saveContext) name:UIApplicationWillResignActiveNotification object:nil];
+    }
+    return self;
+}
 
 #pragma mark - Core Data stack
 
