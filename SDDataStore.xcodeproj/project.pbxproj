@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		A061594119FEF22C005ADCBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A061594019FEF22C005ADCBB /* main.m */; };
 		A061594419FEF22C005ADCBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A061594319FEF22C005ADCBB /* AppDelegate.m */; };
-		A061594719FEF22C005ADCBB /* SDDataStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A061594519FEF22C005ADCBB /* SDDataStore.xcdatamodeld */; };
 		A061594A19FEF22C005ADCBB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A061594919FEF22C005ADCBB /* ViewController.m */; };
 		A061594D19FEF22C005ADCBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A061594B19FEF22C005ADCBB /* Main.storyboard */; };
 		A061594F19FEF22C005ADCBB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A061594E19FEF22C005ADCBB /* Images.xcassets */; };
 		A061595219FEF22C005ADCBB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A061595019FEF22C005ADCBB /* LaunchScreen.xib */; };
 		A061595E19FEF22C005ADCBB /* SDDataStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A061595D19FEF22C005ADCBB /* SDDataStoreTests.m */; };
+		A061596A19FEF2A1005ADCBB /* SDDataStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A061596819FEF2A1005ADCBB /* SDDataStore.xcdatamodeld */; };
+		A061596E19FEF2F0005ADCBB /* SDCoreDataInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = A061596D19FEF2F0005ADCBB /* SDCoreDataInterface.m */; };
+		A061597119FEF326005ADCBB /* SDCoreDataLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A061597019FEF326005ADCBB /* SDCoreDataLayer.m */; };
+		A061597F19FEFB6B005ADCBB /* NSFetchRequest+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A061597E19FEFB6B005ADCBB /* NSFetchRequest+Extensions.m */; };
+		A061598219FF0405005ADCBB /* NSObject+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A061598119FF0405005ADCBB /* NSObject+Extensions.m */; };
+		A061598519FF0D46005ADCBB /* NSManagedObjectContext+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A061598419FF0D46005ADCBB /* NSManagedObjectContext+Extensions.m */; };
+		A061598819FF17BE005ADCBB /* NSManagedObject+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A061598719FF17BE005ADCBB /* NSManagedObject+Extensions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +39,6 @@
 		A061594019FEF22C005ADCBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A061594219FEF22C005ADCBB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A061594319FEF22C005ADCBB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A061594619FEF22C005ADCBB /* SDDataStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SDDataStore.xcdatamodel; sourceTree = "<group>"; };
 		A061594819FEF22C005ADCBB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A061594919FEF22C005ADCBB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A061594C19FEF22C005ADCBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -42,6 +47,19 @@
 		A061595719FEF22C005ADCBB /* SDDataStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDDataStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A061595C19FEF22C005ADCBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A061595D19FEF22C005ADCBB /* SDDataStoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDDataStoreTests.m; sourceTree = "<group>"; };
+		A061596919FEF2A1005ADCBB /* SDDataStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SDDataStore.xcdatamodel; sourceTree = "<group>"; };
+		A061596C19FEF2F0005ADCBB /* SDCoreDataInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCoreDataInterface.h; sourceTree = "<group>"; };
+		A061596D19FEF2F0005ADCBB /* SDCoreDataInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCoreDataInterface.m; sourceTree = "<group>"; };
+		A061596F19FEF326005ADCBB /* SDCoreDataLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCoreDataLayer.h; sourceTree = "<group>"; };
+		A061597019FEF326005ADCBB /* SDCoreDataLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCoreDataLayer.m; sourceTree = "<group>"; };
+		A061597D19FEFB6B005ADCBB /* NSFetchRequest+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFetchRequest+Extensions.h"; sourceTree = "<group>"; };
+		A061597E19FEFB6B005ADCBB /* NSFetchRequest+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFetchRequest+Extensions.m"; sourceTree = "<group>"; };
+		A061598019FF0405005ADCBB /* NSObject+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extensions.h"; sourceTree = "<group>"; };
+		A061598119FF0405005ADCBB /* NSObject+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extensions.m"; sourceTree = "<group>"; };
+		A061598319FF0D46005ADCBB /* NSManagedObjectContext+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+Extensions.h"; sourceTree = "<group>"; };
+		A061598419FF0D46005ADCBB /* NSManagedObjectContext+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+Extensions.m"; sourceTree = "<group>"; };
+		A061598619FF17BE005ADCBB /* NSManagedObject+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+Extensions.h"; sourceTree = "<group>"; };
+		A061598719FF17BE005ADCBB /* NSManagedObject+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+Extensions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +101,9 @@
 		A061593D19FEF22C005ADCBB /* SDDataStore */ = {
 			isa = PBXGroup;
 			children = (
+				A061598019FF0405005ADCBB /* NSObject+Extensions.h */,
+				A061598119FF0405005ADCBB /* NSObject+Extensions.m */,
+				A061596719FEF2A1005ADCBB /* CoreData */,
 				A061594219FEF22C005ADCBB /* AppDelegate.h */,
 				A061594319FEF22C005ADCBB /* AppDelegate.m */,
 				A061594819FEF22C005ADCBB /* ViewController.h */,
@@ -90,7 +111,6 @@
 				A061594B19FEF22C005ADCBB /* Main.storyboard */,
 				A061594E19FEF22C005ADCBB /* Images.xcassets */,
 				A061595019FEF22C005ADCBB /* LaunchScreen.xib */,
-				A061594519FEF22C005ADCBB /* SDDataStore.xcdatamodeld */,
 				A061593E19FEF22C005ADCBB /* Supporting Files */,
 			);
 			path = SDDataStore;
@@ -120,6 +140,40 @@
 				A061595C19FEF22C005ADCBB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A061596719FEF2A1005ADCBB /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				A061597919FEFB06005ADCBB /* CoreDataCategories */,
+				A061596B19FEF2C1005ADCBB /* Entities */,
+				A061596819FEF2A1005ADCBB /* SDDataStore.xcdatamodeld */,
+				A061596C19FEF2F0005ADCBB /* SDCoreDataInterface.h */,
+				A061596D19FEF2F0005ADCBB /* SDCoreDataInterface.m */,
+				A061596F19FEF326005ADCBB /* SDCoreDataLayer.h */,
+				A061597019FEF326005ADCBB /* SDCoreDataLayer.m */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		A061596B19FEF2C1005ADCBB /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		A061597919FEFB06005ADCBB /* CoreDataCategories */ = {
+			isa = PBXGroup;
+			children = (
+				A061597D19FEFB6B005ADCBB /* NSFetchRequest+Extensions.h */,
+				A061597E19FEFB6B005ADCBB /* NSFetchRequest+Extensions.m */,
+				A061598319FF0D46005ADCBB /* NSManagedObjectContext+Extensions.h */,
+				A061598419FF0D46005ADCBB /* NSManagedObjectContext+Extensions.m */,
+				A061598619FF17BE005ADCBB /* NSManagedObject+Extensions.h */,
+				A061598719FF17BE005ADCBB /* NSManagedObject+Extensions.m */,
+			);
+			path = CoreDataCategories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,9 +276,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A061597F19FEFB6B005ADCBB /* NSFetchRequest+Extensions.m in Sources */,
+				A061598519FF0D46005ADCBB /* NSManagedObjectContext+Extensions.m in Sources */,
+				A061596E19FEF2F0005ADCBB /* SDCoreDataInterface.m in Sources */,
+				A061597119FEF326005ADCBB /* SDCoreDataLayer.m in Sources */,
+				A061598219FF0405005ADCBB /* NSObject+Extensions.m in Sources */,
 				A061594419FEF22C005ADCBB /* AppDelegate.m in Sources */,
-				A061594719FEF22C005ADCBB /* SDDataStore.xcdatamodeld in Sources */,
 				A061594A19FEF22C005ADCBB /* ViewController.m in Sources */,
+				A061598819FF17BE005ADCBB /* NSManagedObject+Extensions.m in Sources */,
+				A061596A19FEF2A1005ADCBB /* SDDataStore.xcdatamodeld in Sources */,
 				A061594119FEF22C005ADCBB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,12 +490,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		A061594519FEF22C005ADCBB /* SDDataStore.xcdatamodeld */ = {
+		A061596819FEF2A1005ADCBB /* SDDataStore.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				A061594619FEF22C005ADCBB /* SDDataStore.xcdatamodel */,
+				A061596919FEF2A1005ADCBB /* SDDataStore.xcdatamodel */,
 			);
-			currentVersion = A061594619FEF22C005ADCBB /* SDDataStore.xcdatamodel */;
+			currentVersion = A061596919FEF2A1005ADCBB /* SDDataStore.xcdatamodel */;
 			path = SDDataStore.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
