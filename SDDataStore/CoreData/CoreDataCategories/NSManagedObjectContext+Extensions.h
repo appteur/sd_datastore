@@ -10,4 +10,27 @@
 
 @interface NSManagedObjectContext (Extensions)
 
+
+-(NSArray*) allObjectsOfType:(NSString*)entityName;
+
+-(NSArray*) allObjectsOfType:(NSString*)entityName matchingPredicate:(NSPredicate*)predicate;
+
+-(id) uniqueEntityOfType:(NSString*)entityName matchingPredicate:(NSPredicate*)predicate;
+
+-(id) uniqueEntityOrNilOfType:(NSString *)entityName matchingPredicate:(NSPredicate *)predicate;
+
+-(id) newEntityOfType:(NSString*)entityType;
+
+
+-(void) updateAttribute:(NSString*)attribute withValue:(id)value onEntity:(NSString*)entityType matchingPredicate:(NSPredicate*)predicate;
+
+
+-(void) deleteAllEntitiesOfType:(NSString*)entityType;
+
+-(void) deleteEntityOfType:(NSString*)entityName matchingPredicate:(NSPredicate*)predicate;
+
+
+-(NSManagedObject*) localInstanceOfObject:(NSManagedObject *)object;
+
+
 @end
