@@ -8,6 +8,24 @@
 
 #import <Foundation/Foundation.h>
 
+
+
 @interface NSObject (Extensions)
+
+
+
+-(void) loadPropertiesFrom:(NSObject*)object;
+
+-(NSArray*) allPropertyNames;
+
+
+
+
+
+
+
+
+
+
 
 @end
