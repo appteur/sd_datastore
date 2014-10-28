@@ -10,4 +10,11 @@
 
 @interface NSManagedObject (Extensions)
 
+
+-(NSDictionary*) toDictionary;
+
+-(NSManagedObject*) localInstanceInContext:(NSManagedObjectContext *)context;
+
+
+
 @end
