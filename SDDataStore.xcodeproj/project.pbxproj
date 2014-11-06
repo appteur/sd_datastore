@@ -60,6 +60,7 @@
 		A061598419FF0D46005ADCBB /* NSManagedObjectContext+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+Extensions.m"; sourceTree = "<group>"; };
 		A061598619FF17BE005ADCBB /* NSManagedObject+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+Extensions.h"; sourceTree = "<group>"; };
 		A061598719FF17BE005ADCBB /* NSManagedObject+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+Extensions.m"; sourceTree = "<group>"; };
+		A0B52FC91A0B04020020E777 /* DataStoreProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStoreProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +146,7 @@
 		A061596719FEF2A1005ADCBB /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				A0B52FC81A0B03A80020E777 /* Categories */,
 				A061597919FEFB06005ADCBB /* CoreDataCategories */,
 				A061596B19FEF2C1005ADCBB /* Entities */,
 				A061596819FEF2A1005ADCBB /* SDDataStore.xcdatamodeld */,
@@ -174,6 +176,14 @@
 				A061598719FF17BE005ADCBB /* NSManagedObject+Extensions.m */,
 			);
 			path = CoreDataCategories;
+			sourceTree = "<group>";
+		};
+		A0B52FC81A0B03A80020E777 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				A0B52FC91A0B04020020E777 /* DataStoreProtocol.h */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -478,6 +488,7 @@
 				A061596319FEF22C005ADCBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A061596419FEF22C005ADCBB /* Build configuration list for PBXNativeTarget "SDDataStoreTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +497,7 @@
 				A061596619FEF22C005ADCBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
