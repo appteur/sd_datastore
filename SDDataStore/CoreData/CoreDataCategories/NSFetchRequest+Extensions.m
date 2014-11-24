@@ -14,7 +14,7 @@
 
 
 
-+(NSFetchRequest*) requestForEntityOfType:(NSString*)className inContext:(NSManagedObjectContext*)ctx
++(NSFetchRequest*) requestForEntity:(NSString*)className inContext:(NSManagedObjectContext*)ctx
 {
     // setup our fetch request
     NSFetchRequest *request = [[NSFetchRequest alloc]init];

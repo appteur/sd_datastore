@@ -12,7 +12,7 @@
 
 
 -(NSDictionary*) toDictionary;
-
+-(void) loadFromDictionary:(NSDictionary*)dictionary;
 -(NSManagedObject*) localInstanceInContext:(NSManagedObjectContext *)context;
 
 

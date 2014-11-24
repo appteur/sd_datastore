@@ -36,6 +36,22 @@
 }
 
 
+-(void) loadFromDictionary:(NSDictionary*)dictionary
+{
+    [dictionary enumerateKeysAndObjectsUsingBlock:^(id key, id obj, BOOL *stop)
+        {
+            @try
+            {
+                [self setValue:obj forKey:key];
+            }
+            @catch (NSException *exception)
+            {
+                NSLog(@"Exception setting value: [%@] for key: [%@] on entity: [%@]", obj, key, [self entity].name);
+            }
+        }];
+}
+
+
 -(NSManagedObject*) localInstanceInContext:(NSManagedObjectContext *)context
 {
     return [context localInstanceOfObject:self];

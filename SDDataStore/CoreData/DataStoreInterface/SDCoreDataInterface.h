@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "DataStoreProtocol.h"
+#import "SDDataStoreProtocol.h"
 
 @interface SDCoreDataInterface : NSObject<SDDataStoreProtocol>
 

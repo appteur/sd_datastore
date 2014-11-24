@@ -8,6 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
+typedef enum {
+    SDDataStoreTypeDictionary,
+    SDDataStoreTypeArray,
+    SDDataStoreTypeEntity
+}SDDataStoreType;
+
 @class User;
 
 /*!
@@ -20,6 +26,7 @@
 -(void) updateAvatar:(NSString*)newURL forUserId:(NSString*)userId;
 -(void) deleteChildWithId:(NSString*)childId;
 -(void) deleteAllObjectsOfType:(NSString *)entityName;
+-(void) saveUsers:(NSArray*)accounts;
 
 -(NSDictionary*) userInfoFromUserId:(NSString*)userId;
 

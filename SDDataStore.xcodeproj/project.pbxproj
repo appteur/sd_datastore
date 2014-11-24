@@ -23,6 +23,7 @@
 		A0AEBCB31A23B72500416A46 /* SDCoreDataLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AEBCA91A23B72500416A46 /* SDCoreDataLayer.m */; };
 		A0AEBCB41A23B72500416A46 /* SDDataStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0AEBCAA1A23B72500416A46 /* SDDataStore.xcdatamodeld */; };
 		A0AEBCB51A23B72500416A46 /* SDCoreDataInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AEBCAF1A23B72500416A46 /* SDCoreDataInterface.m */; };
+		A0AEBCB91A23BE0500416A46 /* CDUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AEBCB81A23BE0500416A46 /* CDUser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		A0AEBCAD1A23B72500416A46 /* SDDataStoreProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDDataStoreProtocol.h; sourceTree = "<group>"; };
 		A0AEBCAE1A23B72500416A46 /* SDCoreDataInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCoreDataInterface.h; sourceTree = "<group>"; };
 		A0AEBCAF1A23B72500416A46 /* SDCoreDataInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCoreDataInterface.m; sourceTree = "<group>"; };
+		A0AEBCB71A23BE0500416A46 /* CDUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDUser.h; path = SDDataStore/CoreData/CDEntities/CDUser.h; sourceTree = SOURCE_ROOT; };
+		A0AEBCB81A23BE0500416A46 /* CDUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDUser.m; path = SDDataStore/CoreData/CDEntities/CDUser.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +167,7 @@
 		A0AEBC9F1A23B72500416A46 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				A0AEBCB61A23B8FB00416A46 /* CDEntities */,
 				A0AEBCAC1A23B72500416A46 /* DataStoreInterface */,
 				A0AEBCA01A23B72500416A46 /* CoreDataCategories */,
 				A0AEBCA71A23B72500416A46 /* CoreDataStore */,
@@ -202,6 +206,15 @@
 				A0AEBCAF1A23B72500416A46 /* SDCoreDataInterface.m */,
 			);
 			path = DataStoreInterface;
+			sourceTree = "<group>";
+		};
+		A0AEBCB61A23B8FB00416A46 /* CDEntities */ = {
+			isa = PBXGroup;
+			children = (
+				A0AEBCB71A23BE0500416A46 /* CDUser.h */,
+				A0AEBCB81A23BE0500416A46 /* CDUser.m */,
+			);
+			path = CDEntities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,6 +321,7 @@
 				A0AEBCB41A23B72500416A46 /* SDDataStore.xcdatamodeld in Sources */,
 				A0AEBCB21A23B72500416A46 /* NSManagedObjectContext+Extensions.m in Sources */,
 				A061598219FF0405005ADCBB /* NSObject+Extensions.m in Sources */,
+				A0AEBCB91A23BE0500416A46 /* CDUser.m in Sources */,
 				A061594419FEF22C005ADCBB /* AppDelegate.m in Sources */,
 				A061594A19FEF22C005ADCBB /* ViewController.m in Sources */,
 				A0A7DD481A0C2F4E00A8CE35 /* ImageSampleTest.m in Sources */,
