@@ -14,14 +14,15 @@
 		A061594F19FEF22C005ADCBB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A061594E19FEF22C005ADCBB /* Images.xcassets */; };
 		A061595219FEF22C005ADCBB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A061595019FEF22C005ADCBB /* LaunchScreen.xib */; };
 		A061595E19FEF22C005ADCBB /* SDDataStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A061595D19FEF22C005ADCBB /* SDDataStoreTests.m */; };
-		A061596A19FEF2A1005ADCBB /* SDDataStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A061596819FEF2A1005ADCBB /* SDDataStore.xcdatamodeld */; };
-		A061596E19FEF2F0005ADCBB /* SDCoreDataInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = A061596D19FEF2F0005ADCBB /* SDCoreDataInterface.m */; };
-		A061597119FEF326005ADCBB /* SDCoreDataLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A061597019FEF326005ADCBB /* SDCoreDataLayer.m */; };
-		A061597F19FEFB6B005ADCBB /* NSFetchRequest+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A061597E19FEFB6B005ADCBB /* NSFetchRequest+Extensions.m */; };
 		A061598219FF0405005ADCBB /* NSObject+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A061598119FF0405005ADCBB /* NSObject+Extensions.m */; };
-		A061598519FF0D46005ADCBB /* NSManagedObjectContext+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A061598419FF0D46005ADCBB /* NSManagedObjectContext+Extensions.m */; };
-		A061598819FF17BE005ADCBB /* NSManagedObject+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A061598719FF17BE005ADCBB /* NSManagedObject+Extensions.m */; };
 		A0A7DD481A0C2F4E00A8CE35 /* ImageSampleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A7DD471A0C2F4E00A8CE35 /* ImageSampleTest.m */; };
+		A0AEBC9E1A23B47300416A46 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AEBC9D1A23B47300416A46 /* User.m */; };
+		A0AEBCB01A23B72500416A46 /* NSFetchRequest+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AEBCA21A23B72500416A46 /* NSFetchRequest+Extensions.m */; };
+		A0AEBCB11A23B72500416A46 /* NSManagedObject+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AEBCA41A23B72500416A46 /* NSManagedObject+Extensions.m */; };
+		A0AEBCB21A23B72500416A46 /* NSManagedObjectContext+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AEBCA61A23B72500416A46 /* NSManagedObjectContext+Extensions.m */; };
+		A0AEBCB31A23B72500416A46 /* SDCoreDataLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AEBCA91A23B72500416A46 /* SDCoreDataLayer.m */; };
+		A0AEBCB41A23B72500416A46 /* SDDataStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0AEBCAA1A23B72500416A46 /* SDDataStore.xcdatamodeld */; };
+		A0AEBCB51A23B72500416A46 /* SDCoreDataInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AEBCAF1A23B72500416A46 /* SDCoreDataInterface.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,22 +49,24 @@
 		A061595719FEF22C005ADCBB /* SDDataStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDDataStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A061595C19FEF22C005ADCBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A061595D19FEF22C005ADCBB /* SDDataStoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDDataStoreTests.m; sourceTree = "<group>"; };
-		A061596919FEF2A1005ADCBB /* SDDataStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SDDataStore.xcdatamodel; sourceTree = "<group>"; };
-		A061596C19FEF2F0005ADCBB /* SDCoreDataInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCoreDataInterface.h; sourceTree = "<group>"; };
-		A061596D19FEF2F0005ADCBB /* SDCoreDataInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCoreDataInterface.m; sourceTree = "<group>"; };
-		A061596F19FEF326005ADCBB /* SDCoreDataLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCoreDataLayer.h; sourceTree = "<group>"; };
-		A061597019FEF326005ADCBB /* SDCoreDataLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCoreDataLayer.m; sourceTree = "<group>"; };
-		A061597D19FEFB6B005ADCBB /* NSFetchRequest+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFetchRequest+Extensions.h"; sourceTree = "<group>"; };
-		A061597E19FEFB6B005ADCBB /* NSFetchRequest+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFetchRequest+Extensions.m"; sourceTree = "<group>"; };
 		A061598019FF0405005ADCBB /* NSObject+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extensions.h"; sourceTree = "<group>"; };
 		A061598119FF0405005ADCBB /* NSObject+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extensions.m"; sourceTree = "<group>"; };
-		A061598319FF0D46005ADCBB /* NSManagedObjectContext+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+Extensions.h"; sourceTree = "<group>"; };
-		A061598419FF0D46005ADCBB /* NSManagedObjectContext+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+Extensions.m"; sourceTree = "<group>"; };
-		A061598619FF17BE005ADCBB /* NSManagedObject+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+Extensions.h"; sourceTree = "<group>"; };
-		A061598719FF17BE005ADCBB /* NSManagedObject+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+Extensions.m"; sourceTree = "<group>"; };
 		A0A7DD461A0C2F4E00A8CE35 /* ImageSampleTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageSampleTest.h; sourceTree = "<group>"; };
 		A0A7DD471A0C2F4E00A8CE35 /* ImageSampleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageSampleTest.m; sourceTree = "<group>"; };
-		A0B52FC91A0B04020020E777 /* DataStoreProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStoreProtocol.h; sourceTree = "<group>"; };
+		A0AEBC9C1A23B47300416A46 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		A0AEBC9D1A23B47300416A46 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		A0AEBCA11A23B72500416A46 /* NSFetchRequest+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFetchRequest+Extensions.h"; sourceTree = "<group>"; };
+		A0AEBCA21A23B72500416A46 /* NSFetchRequest+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFetchRequest+Extensions.m"; sourceTree = "<group>"; };
+		A0AEBCA31A23B72500416A46 /* NSManagedObject+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+Extensions.h"; sourceTree = "<group>"; };
+		A0AEBCA41A23B72500416A46 /* NSManagedObject+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+Extensions.m"; sourceTree = "<group>"; };
+		A0AEBCA51A23B72500416A46 /* NSManagedObjectContext+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+Extensions.h"; sourceTree = "<group>"; };
+		A0AEBCA61A23B72500416A46 /* NSManagedObjectContext+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+Extensions.m"; sourceTree = "<group>"; };
+		A0AEBCA81A23B72500416A46 /* SDCoreDataLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCoreDataLayer.h; sourceTree = "<group>"; };
+		A0AEBCA91A23B72500416A46 /* SDCoreDataLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCoreDataLayer.m; sourceTree = "<group>"; };
+		A0AEBCAB1A23B72500416A46 /* SDDataStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SDDataStore.xcdatamodel; sourceTree = "<group>"; };
+		A0AEBCAD1A23B72500416A46 /* SDDataStoreProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDDataStoreProtocol.h; sourceTree = "<group>"; };
+		A0AEBCAE1A23B72500416A46 /* SDCoreDataInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCoreDataInterface.h; sourceTree = "<group>"; };
+		A0AEBCAF1A23B72500416A46 /* SDCoreDataInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCoreDataInterface.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +108,12 @@
 		A061593D19FEF22C005ADCBB /* SDDataStore */ = {
 			isa = PBXGroup;
 			children = (
+				A0AEBC9F1A23B72500416A46 /* CoreData */,
+				A0AEBC9B1A23B46100416A46 /* TempExampleClasses */,
 				A0A7DD461A0C2F4E00A8CE35 /* ImageSampleTest.h */,
 				A0A7DD471A0C2F4E00A8CE35 /* ImageSampleTest.m */,
 				A061598019FF0405005ADCBB /* NSObject+Extensions.h */,
 				A061598119FF0405005ADCBB /* NSObject+Extensions.m */,
-				A061596719FEF2A1005ADCBB /* CoreData */,
 				A061594219FEF22C005ADCBB /* AppDelegate.h */,
 				A061594319FEF22C005ADCBB /* AppDelegate.m */,
 				A061594819FEF22C005ADCBB /* ViewController.h */,
@@ -148,47 +152,56 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A061596719FEF2A1005ADCBB /* CoreData */ = {
+		A0AEBC9B1A23B46100416A46 /* TempExampleClasses */ = {
 			isa = PBXGroup;
 			children = (
-				A0B52FC81A0B03A80020E777 /* Categories */,
-				A061597919FEFB06005ADCBB /* CoreDataCategories */,
-				A061596B19FEF2C1005ADCBB /* Entities */,
-				A061596819FEF2A1005ADCBB /* SDDataStore.xcdatamodeld */,
-				A061596C19FEF2F0005ADCBB /* SDCoreDataInterface.h */,
-				A061596D19FEF2F0005ADCBB /* SDCoreDataInterface.m */,
-				A061596F19FEF326005ADCBB /* SDCoreDataLayer.h */,
-				A061597019FEF326005ADCBB /* SDCoreDataLayer.m */,
+				A0AEBC9C1A23B47300416A46 /* User.h */,
+				A0AEBC9D1A23B47300416A46 /* User.m */,
+			);
+			path = TempExampleClasses;
+			sourceTree = "<group>";
+		};
+		A0AEBC9F1A23B72500416A46 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				A0AEBCAC1A23B72500416A46 /* DataStoreInterface */,
+				A0AEBCA01A23B72500416A46 /* CoreDataCategories */,
+				A0AEBCA71A23B72500416A46 /* CoreDataStore */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
 		};
-		A061596B19FEF2C1005ADCBB /* Entities */ = {
+		A0AEBCA01A23B72500416A46 /* CoreDataCategories */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = Entities;
-			sourceTree = "<group>";
-		};
-		A061597919FEFB06005ADCBB /* CoreDataCategories */ = {
-			isa = PBXGroup;
-			children = (
-				A061597D19FEFB6B005ADCBB /* NSFetchRequest+Extensions.h */,
-				A061597E19FEFB6B005ADCBB /* NSFetchRequest+Extensions.m */,
-				A061598319FF0D46005ADCBB /* NSManagedObjectContext+Extensions.h */,
-				A061598419FF0D46005ADCBB /* NSManagedObjectContext+Extensions.m */,
-				A061598619FF17BE005ADCBB /* NSManagedObject+Extensions.h */,
-				A061598719FF17BE005ADCBB /* NSManagedObject+Extensions.m */,
+				A0AEBCA11A23B72500416A46 /* NSFetchRequest+Extensions.h */,
+				A0AEBCA21A23B72500416A46 /* NSFetchRequest+Extensions.m */,
+				A0AEBCA31A23B72500416A46 /* NSManagedObject+Extensions.h */,
+				A0AEBCA41A23B72500416A46 /* NSManagedObject+Extensions.m */,
+				A0AEBCA51A23B72500416A46 /* NSManagedObjectContext+Extensions.h */,
+				A0AEBCA61A23B72500416A46 /* NSManagedObjectContext+Extensions.m */,
 			);
 			path = CoreDataCategories;
 			sourceTree = "<group>";
 		};
-		A0B52FC81A0B03A80020E777 /* Categories */ = {
+		A0AEBCA71A23B72500416A46 /* CoreDataStore */ = {
 			isa = PBXGroup;
 			children = (
-				A0B52FC91A0B04020020E777 /* DataStoreProtocol.h */,
+				A0AEBCA81A23B72500416A46 /* SDCoreDataLayer.h */,
+				A0AEBCA91A23B72500416A46 /* SDCoreDataLayer.m */,
+				A0AEBCAA1A23B72500416A46 /* SDDataStore.xcdatamodeld */,
 			);
-			path = Categories;
+			path = CoreDataStore;
+			sourceTree = "<group>";
+		};
+		A0AEBCAC1A23B72500416A46 /* DataStoreInterface */ = {
+			isa = PBXGroup;
+			children = (
+				A0AEBCAD1A23B72500416A46 /* SDDataStoreProtocol.h */,
+				A0AEBCAE1A23B72500416A46 /* SDCoreDataInterface.h */,
+				A0AEBCAF1A23B72500416A46 /* SDCoreDataInterface.m */,
+			);
+			path = DataStoreInterface;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,17 +304,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A061597F19FEFB6B005ADCBB /* NSFetchRequest+Extensions.m in Sources */,
-				A061598519FF0D46005ADCBB /* NSManagedObjectContext+Extensions.m in Sources */,
-				A061596E19FEF2F0005ADCBB /* SDCoreDataInterface.m in Sources */,
-				A061597119FEF326005ADCBB /* SDCoreDataLayer.m in Sources */,
+				A0AEBCB01A23B72500416A46 /* NSFetchRequest+Extensions.m in Sources */,
+				A0AEBCB41A23B72500416A46 /* SDDataStore.xcdatamodeld in Sources */,
+				A0AEBCB21A23B72500416A46 /* NSManagedObjectContext+Extensions.m in Sources */,
 				A061598219FF0405005ADCBB /* NSObject+Extensions.m in Sources */,
 				A061594419FEF22C005ADCBB /* AppDelegate.m in Sources */,
 				A061594A19FEF22C005ADCBB /* ViewController.m in Sources */,
 				A0A7DD481A0C2F4E00A8CE35 /* ImageSampleTest.m in Sources */,
-				A061598819FF17BE005ADCBB /* NSManagedObject+Extensions.m in Sources */,
-				A061596A19FEF2A1005ADCBB /* SDDataStore.xcdatamodeld in Sources */,
+				A0AEBC9E1A23B47300416A46 /* User.m in Sources */,
 				A061594119FEF22C005ADCBB /* main.m in Sources */,
+				A0AEBCB11A23B72500416A46 /* NSManagedObject+Extensions.m in Sources */,
+				A0AEBCB31A23B72500416A46 /* SDCoreDataLayer.m in Sources */,
+				A0AEBCB51A23B72500416A46 /* SDCoreDataInterface.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,12 +522,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		A061596819FEF2A1005ADCBB /* SDDataStore.xcdatamodeld */ = {
+		A0AEBCAA1A23B72500416A46 /* SDDataStore.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				A061596919FEF2A1005ADCBB /* SDDataStore.xcdatamodel */,
+				A0AEBCAB1A23B72500416A46 /* SDDataStore.xcdatamodel */,
 			);
-			currentVersion = A061596919FEF2A1005ADCBB /* SDDataStore.xcdatamodel */;
+			currentVersion = A0AEBCAB1A23B72500416A46 /* SDDataStore.xcdatamodel */;
 			path = SDDataStore.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

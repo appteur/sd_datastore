@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DataStoreProtocol.h"
 
 @interface ViewController : UIViewController
+
+@property (nonatomic) id<DataStoreProtocol> dataStore;
 
 
 @end

@@ -15,6 +15,9 @@
 #import "NSManagedObject+Extensions.h"
 #import "NSObject+Extensions.h"
 
+// data classes
+#import "User.h"
+
 @interface SDCoreDataInterface()
 
 @property (nonatomic, strong) SDCoreDataLayer *cdlayer;
@@ -36,8 +39,8 @@
     return self;
 }
 
-// TODO: this should return a "User" entity object
--(id) userWithIdentifier:(NSString*)userId
+
+-(User*) userWithIdentifier:(NSString*)userId
 {
     id user = [ctx uniqueEntityOfType:@"User" matchingPredicate:[NSPredicate predicateWithFormat:@"userId == %@", userId]];
     
@@ -63,13 +66,13 @@
 
 -(void) deleteChildWithId:(NSString*)childId
 {
-    [ctx deleteEntityOfType:@"User" matchingPredicate:[NSPredicate predicateWithFormat:@"UserId == '%@'",childId]];
+    [ctx deleteEntityOfType:@"User" matchingPredicate:[NSPredicate predicateWithFormat:@"userId == '%@'", childId]];
     
     [self.cdlayer saveContext];
 }
 
 
-- (void) deleteAllObjectsOfType:(NSString *)entityName
+-(void) deleteAllObjectsOfType:(NSString *)entityName
 {
     [ctx deleteAllEntitiesOfType:entityName];
     

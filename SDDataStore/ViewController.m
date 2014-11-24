@@ -8,18 +8,37 @@
 
 #import "ViewController.h"
 
+#import "SDCoreDataInterface.h"
+#import "User.h"
+
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+-(id) initWithCoder:(NSCoder *)aDecoder
+{
+    if (self = [super initWithCoder:aDecoder])
+    {
+        // get a reference to our data store (maybe make a singleton?)
+        self.dataStore = [[SDCoreDataInterface alloc] init];
+    }
+    return self;
 }
 
-- (void)didReceiveMemoryWarning {
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    User *currentUser = [self.dataStore userWithIdentifier:@"19"];
+    
+    // do something with user here
+}
+
+- (void)didReceiveMemoryWarning
+{
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }

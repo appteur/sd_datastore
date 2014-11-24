@@ -1,13 +1,13 @@
 //
-//  SDCoreDataInterface.h
+//  User.h
 //  SDDataStore
 //
-//  Created by Seth on 10/27/14.
+//  Created by Seth on 11/24/14.
 //  Copyright (c) 2014 Seth. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@interface SDCoreDataInterface : NSObject
+@interface User : NSObject
 
 @end
