@@ -35,6 +35,7 @@
     User *currentUser = [self.dataStore userWithIdentifier:@"19"];
     
     // do something with user here
+    NSLog(@"Found user: %@", currentUser);
 }
 
 - (void)didReceiveMemoryWarning
