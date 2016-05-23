@@ -77,7 +77,7 @@
     // get all entities matching the predicate
     NSArray *entities = [self allObjectsOfType:entityName matchingPredicate:predicate];
     
-    // if we have a result grab it, otherwise create and return a new empty one
+    // if we have a result grab it, otherwise create and return nil
     id entity = (entities.count > 0) ? entities[0] : nil;
     
     return entity;
